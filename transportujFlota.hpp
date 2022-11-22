@@ -2,13 +2,13 @@
 
 #include "Stocznia.hpp"
 
-int CargoSum = 0;
-int temp = 0;
-int sailingShipCounter = 0;
 
 unsigned int transportujFlota(unsigned int towar)
 {
 Stocznia fabryka{};
+int CargoSum = 0;
+int temp = 0;
+int sailingShipCounter = 0;
 
     while(CargoSum < towar)
     {
